@@ -1,0 +1,85 @@
+.card-container {
+  width: 492px;
+  height: 217px;
+  display: inline-block;
+  margin: 0px 41px;
+  position: relative;
+}
+.card-title-container {
+  display: flex;
+  align-items: center;
+}
+.card-title {
+  flex: 1;
+  height: 32px;
+  text-align: left;
+  font-size: 24px;
+  line-height: 32px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  color: #276ffb;
+}
+
+.card-time {
+  height: 24px;
+  text-align: left;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 500;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 0.6;
+  padding-right: 6px;
+}
+
+.card-location {
+  height: 27px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #141414;
+}
+
+.card-desc {
+  margin-top: 28px;
+  width: 445px;
+  height: 127px;
+  text-align: left;
+  font-size: 20px;
+  line-height: 27px;
+  font-weight: 400;
+  letter-spacing: 0px;
+  color: #141414;
+  opacity: 0.6;
+  display: inline-block;
+}
+
+.card-navigation-btn {
+  width: 46px;
+  height: 43px;
+  background: transparent
+    linear-gradient(90deg, #266efd 0%, #3876f1 100%) 0% 0% no-repeat
+    padding-box;
+  box-shadow: 0px 3px 17px #3876f194;
+  border-radius: 5px;
+  opacity: 1;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  cursor: pointer;
+}
+
+.btn-label {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  opacity: 1;
+}
+
+.card-border {
+  height: 215px;
+  border: 1px solid #aaaaaa;
+  opacity: 1;
+}
